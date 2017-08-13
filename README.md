@@ -13,6 +13,8 @@ Show, Attend and Tell: Neural Image Caption Generation with Visual Attention: ht
 
 Show, Attend and Tell's Tensorflow implementation: https://github.com/yunjey/show-attend-and-tell
 
+Used Data: http://users.eecs.northwestern.edu/~jwa368/my_data.html
+
 <br/>
 
 
