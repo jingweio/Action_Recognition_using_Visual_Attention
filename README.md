@@ -70,5 +70,8 @@ After enter this command, the model will be trained based on the 'train' data-se
 
 Here is an experimental case.
 
-![alt text](PNG/models_test_result.png "models_test_result")
+models validated based 'val/' data-set
 ![alt text](PNG/models_val_result.png "models_val_result")
+
+models tested based on 'test/' data-set
+![alt text](PNG/models_test_result.png "models_test_result")
