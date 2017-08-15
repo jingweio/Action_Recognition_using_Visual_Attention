@@ -41,8 +41,6 @@ $ sudo apt-get install ffmpeg
 $ wget http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat -P data/
 ```
 
-![alt text](PNG/.PNG "")
-
 
 For breaking the download videos into images along the frames and distribute them into three partitions including 'train/', 'val/', and 'test/' following the proporation: 0.6:0.2:0.2.
 	
@@ -58,6 +56,7 @@ $ python CNN.py
 
 <br/>
 
+
 ### Training
 Run the command below to train the action recognition model.
 
@@ -70,8 +69,63 @@ After enter this command, the model will be trained based on the 'train' data-se
 
 Here is an experimental case.
 
-models validated based 'val/' data-set
+#### models validated based 'val/' data-set
+
 ![alt text](PNG/models_val_result.png "models_val_result")
 
-models tested based on 'test/' data-set
+<br/>
+
+#### models tested based on 'test/' data-set
+
 ![alt text](PNG/models_test_result.png "models_test_result")
+
+<br/>
+
+
+<br/>
+
+
+### Tensorboard visualization
+
+--update later
+
+<br/>
+
+
+### Results
+
+--update later
+
+<br/>
+
+### Reminder
+
+Besides, the codes: Data_Scanning.py and Image_Scanning.py can help to measures the data distribution of the corresponding data-set.
+For example,
+
+```bash
+$ python Data_Scanning.py
+```
+
+#### three_data_partition_distribution
+
+![alt text](PNG/three_data_partition_distribution.png "three_data_partition_distribution")
+
+```bash
+$ python Image_Scanning
+```
+
+<br/>
+
+#### Video_Frames_Distribution
+
+![alt text](PNG/Video_Frames_Distribution.png "Video_Frames_Distribution")
+
+<br/>
+
+
+<br/>
+
+
+
+<br/>
