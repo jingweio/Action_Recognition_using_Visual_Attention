@@ -1,0 +1,5 @@
+numpy
+scipy
+hickle
+cPickle
+collections
