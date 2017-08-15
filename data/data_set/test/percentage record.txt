@@ -1,0 +1,50 @@
+2017-08-15 18:10:23.723128_test_
+model path: /home/jingwei/Action Detection/A-R/data/model/lstm/model-330
+
+0 batch -- accurate percentage: 0.6667
+1 batch -- accurate percentage: 0.7333
+2 batch -- accurate percentage: 0.6667
+3 batch -- accurate percentage: 0.3333
+4 batch -- accurate percentage: 0.7333
+5 batch -- accurate percentage: 0.5333
+6 batch -- accurate percentage: 0.6667
+7 batch -- accurate percentage: 0.7333
+8 batch -- accurate percentage: 0.3333
+9 batch -- accurate percentage: 0.4
+10 batch -- accurate percentage: 0.4667
+11 batch -- accurate percentage: 0.4667
+12 batch -- accurate percentage: 0.6
+13 batch -- accurate percentage: 0.7333
+14 batch -- accurate percentage: 0.4667
+15 batch -- accurate percentage: 0.6667
+16 batch -- accurate percentage: 0.6
+17 batch -- accurate percentage: 0.6
+18 batch -- accurate percentage: 0.6667
+
+accuracy: 0.582457894737
+
+2017-08-15 18:13:23.862936_test_
+model path: /home/jingwei/Action Detection/A-R/data/model/lstm/model-430
+
+0 batch -- accurate percentage: 0.5333
+1 batch -- accurate percentage: 0.7333
+2 batch -- accurate percentage: 0.6667
+3 batch -- accurate percentage: 0.4667
+4 batch -- accurate percentage: 0.4667
+5 batch -- accurate percentage: 0.8
+6 batch -- accurate percentage: 0.9333
+7 batch -- accurate percentage: 0.7333
+8 batch -- accurate percentage: 0.5333
+9 batch -- accurate percentage: 0.4
+10 batch -- accurate percentage: 0.6
+11 batch -- accurate percentage: 0.5333
+12 batch -- accurate percentage: 0.6
+13 batch -- accurate percentage: 0.5333
+14 batch -- accurate percentage: 0.2
+15 batch -- accurate percentage: 0.6667
+16 batch -- accurate percentage: 0.6
+17 batch -- accurate percentage: 0.6667
+18 batch -- accurate percentage: 0.7333
+
+accuracy: 0.599994736842
+
