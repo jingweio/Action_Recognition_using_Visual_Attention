@@ -1,6 +1,6 @@
 # Action_Recognition_using_Visual_Attention
 
-<b>Update (August 13, 2017)</b> TensorFlow Implementation of [Action Recognition using Visual Attention](https://arxiv.org/abs/1511.04119) which introduces an attention based action recognition discriminator. The model inputed with a video will shifts its attention along the frames, labels each frame, and selects the merging label with the highest frequency of occurance as the fina label of the video.
+<b>Update (August 16, 2017)</b> TensorFlow Implementation of [Action Recognition using Visual Attention](https://arxiv.org/abs/1511.04119) which introduces an attention based action recognition discriminator. The model inputed with a video will shifts its attention along the frames, labels each frame, and selects the merging label with the highest frequency of occurance as the fina label of the video.
 
 <br/>
 
@@ -93,7 +93,31 @@ Here is an experimental case.
 
 ### Results
 
---update later
+Here is one test case.
+
+![alt text](PNG/merged_a02_v01_s07_e04.png "merged_a02_v01_s07_e04")
+
+The selected labels for the frames are:
+
+stand up
+pick up with one hand
+pick up with one hand
+pick up with one hand
+pick up with one hand
+pick up with one hand
+pick up with one hand
+pick up with one hand
+pick up with one hand
+pick up with one hand
+pick up with one hand
+pick up with one hand
+pick up with one hand
+pick up with one hand
+pick up with one hand
+pick up with one hand
+pick up with one hand
+
+The final label: pick up with one hand
 
 <br/>
 
