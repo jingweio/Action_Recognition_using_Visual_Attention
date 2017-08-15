@@ -111,11 +111,11 @@ $ python Data_Scanning.py
 
 ![alt text](PNG/three_data_partition_distribution.png "three_data_partition_distribution")
 
+<br/>
+
 ```bash
 $ python Image_Scanning
 ```
-
-<br/>
 
 #### Video_Frames_Distribution
 
