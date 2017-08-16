@@ -1,6 +1,6 @@
 # Action_Recognition_using_Visual_Attention
 
-<b>Update (August 16, 2017)</b> TensorFlow Implementation of [Action Recognition using Visual Attention](https://arxiv.org/abs/1511.04119) which introduces an attention based action recognition discriminator. The model inputed with a video will shifts its attention along the frames, labels each frame, and selects the merging label with the highest frequency of occurance as the fina label of the video.
+<b>Update (August 16, 2017)</b> TensorFlow Implementation of [Action Recognition using Visual Attention](https://arxiv.org/abs/1511.04119) which introduces an attention based action recognition discriminator. The model inputed with a video will shift its attention along the frames, label each frame, and select the merging label with the highest frequency of occurance as the final label of the video.
 
 <br/>
 
@@ -48,7 +48,7 @@ For breaking the download videos into images along the frames and distribute the
 $ python pre-data.py
 ```
 
-Then, we need to extract the features from the images prepared for the further training.
+Then, we need to extract the features from images prepared for the further training.
 
 ```bash
 $ python CNN.py
@@ -98,7 +98,7 @@ The final label: pick up with one hand
 
 ### Reminder
 
-Besides, the codes: Data_Scanning.py and Image_Scanning.py can help to measures the data distribution of the corresponding data-set.
+Besides, the codes: Data_Scanning.py and Image_Scanning.py can help to measure the data distribution of the corresponding data-set.
 For example,
 
 ```bash
